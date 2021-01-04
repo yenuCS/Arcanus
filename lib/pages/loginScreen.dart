@@ -3,9 +3,9 @@ import 'package:flutter/services.dart';
 // Page imports
 
 // Widget imports
-import 'package:arcanus/widgets/loginPage/emailField.dart';
-import 'package:arcanus/widgets/loginpage/passwordField.dart';
-import 'package:arcanus/widgets/loginPage/loginButton.dart';
+import 'package:arcanus/widgets/login/emailField.dart';
+import 'package:arcanus/widgets/login/passwordField.dart';
+import 'package:arcanus/widgets/login/loginButton.dart';
 
 class LoginScreen extends StatefulWidget {
   @override

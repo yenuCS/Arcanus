@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:anilist/anilist.dart';
 
 class Blocks extends StatefulWidget {
   final String value1;
@@ -34,8 +35,8 @@ class _BlocksState extends State<Blocks> {
           children: <Widget>[
             Card(
                 child: ListTile(
-              title: Text("${widget.value1}"),
-              subtitle: Text("8:30 - 9:39"),
+              title: Text("ANIME NAME"),
+              subtitle: Text("Episodes Watched: 0/24"),
             )),
           ],
         ));

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:arcanus/widgets/blocks.dart';
+import 'package:arcanus/widgets/cardList.dart';
 import 'package:arcanus/widgets/drawer.dart';
 
 Map<int, Color> colour = {
@@ -25,20 +25,12 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-/*   hexColour(String colourHexCode) {
-    String colourNew = '0xff' + colourHexCode;
-    colourNew = colourNew.replaceAll('#', '');
-    int colourInt = int.parse(colourNew);
-    return colourInt;
-  } */
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        centerTitle: true,
         title: Text(
-          'Anime List',
+          'Arcanus',
           textAlign: TextAlign.start,
         ),
         elevation: 0.0,
