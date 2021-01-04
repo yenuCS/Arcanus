@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:arcanus/pages/home.dart';
+import 'package:arcanus/pages/homeScreen.dart';
 
 // Widget for login button
 Widget buildLoginButton(BuildContext context) {
